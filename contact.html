@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from alioth-html.pethemes.com/dark/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 23 Jan 2022 08:28:56 GMT -->
 <head>
     <meta charset="utf-8">
 
     <!-- Page Title -->
-    <title>Contact - Alioth</title>
+    <title>Contact - Abid Hasan</title>
     <!--/ Page Title -->
 
     <meta name="author" content="Pe Themes">
@@ -21,8 +18,15 @@
     <link href="style.css" rel="stylesheet">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="img/favicon.png" />
-    <link rel="apple-touch-icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <!--/ Favicons -->
 
 </head>
@@ -72,9 +76,9 @@
 
                 <!-- Site Logos -->
                 <div class="site-logo">
-                    <a href="index-2.html">
-                        <img alt="Site Logo" class="dark-logo" src="img/site-logo.png">
-                        <img alt="Site Logo Light" class="light-logo" src="img/site-logo-light.png">
+                    <a href="index.html">
+                        <img alt="Site Logo" class="dark-logo" src="img/logo/site-logo.png">
+                        <img alt="Site Logo Light" class="light-logo" src="img/logo/site-logo-light.png">
                     </a>
                 </div>
                 <!-- /Site Logos -->
@@ -244,72 +248,18 @@
                         <!--/Text Wrapper-->
 
                         <!-- Contact Form -->
-                        <div class="alioth-form">
-
-                            <form action="https://alioth-html.pethemes.com/" method="post">
-
-                                <!-- Form Field -->
-                                <div class="field-wrap">
-                                    <label>
-                                        Company Name
-                                    </label>
-                                    <input type="text" required autocomplete="off" />
-                                </div>
-                                <!--/ Form Field -->
-
-                                <!-- Form Field -->
-                                <div class="field-wrap">
-                                    <label>
-                                        Your Name
-                                    </label>
-                                    <input type="email" required autocomplete="off" />
-                                </div>
-                                <!--/ Form Field -->
-
-                                <!-- Form Field -->
-                                <div class="field-wrap">
-                                    <label>
-                                        Phone number
-                                    </label>
-                                    <input type="email" required autocomplete="off" />
-                                </div>
-                                <!--/ Form Field-->
-
-                                <!-- Form Field -->
-                                <div class="field-wrap">
-                                    <label>
-                                        E-mail
-                                    </label>
-                                    <input type="email" required autocomplete="off" />
-                                </div>
-                                <!--/ Form Field-->
-
-                                <!-- Form Field -->
-                                <div class="field-wrap">
-                                    <label>
-                                        Subject
-                                    </label>
-                                    <input type="email" required autocomplete="off" />
-                                </div>
-                                <!--/ Form Field -->
-
-                                <!-- Form Field (Textarea)-->
-                                <div class="message-wrap">
-                                    <label>
-                                        Your message
-                                    </label>
-                                    <textarea rows="8"></textarea>
-                                </div>
-                                <!--/ Form Field (Textarea)-->
-
-                                <!-- Button -->
-                                <div class="send-wrap">
-                                    <button type="submit" class="button button-block">Submit</button>
-                                </div>
-                                <!--/ Button -->
-
-                            </form>
-                        </div>
+                        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mqkneryz" method="post">
+                            <fieldset id="fs-frm-inputs">
+                              <label for="full-name">Full Name</label>
+                              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                              <label for="email-address">Email Address</label>
+                              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                              <label for="message">Message</label>
+                              <textarea rows="5" name="message" id="message" placeholder="Send your words!" required=""></textarea>
+                              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                            </fieldset>
+                            <input type="submit" value="Submit">
+                          </form>
                         <!--/Contact Form -->
 
                     </div>
@@ -321,7 +271,8 @@
                         <!--Single Image-->
                         <div class="single-image">
 
-                            <img class="has-anim" data-animation="slideUp" data-duration="2" data-delay="0" alt="Single Image" src="img/contact-img.jpg">
+                            <img class="has-anim" data-animation="slideUp" data-duration="2" data-delay="0" 
+                            alt="Single Image" src="img/contact-img.jpg">
 
                         </div>
                         <!--/Single Image-->
@@ -459,13 +410,15 @@
 
                 <!-- Footer Logo -->
                 <div class="footer-logo">
-                    <img alt="Footer Logo" src="img/footer-logo-light.png">
+                    <a href="index.html">
+                        <img alt="Footer Logo" src="img/logo/site-logo-light.webp" height="100" width="200">
+                    </a>
                 </div>
                 <!-- Footer Logo -->
 
                 <!-- Copyright -->
                 <div class="copyright-text">
-                    2021©
+                    2022©
                 </div>
                 <!--/ Copyright -->
 
@@ -509,42 +462,6 @@
 
         </div>
         <!--/ Footer Wraper (Top) -->
-
-        <!-- Footer Wraper (Bottom) -->
-        <div class="wrapper">
-
-            <!-- Footer Widget -->
-            <div class="c-col-6 footer-widget footer_cta">
-
-                <!-- CTA -->
-                <div class="big-button">
-                    <a href="mailto:hello@pethemes.com">hello@pethemes.com</a>
-                </div>
-                <!--/ CTA -->
-
-            </div>
-            <!--/ Footer Widget -->
-
-            <!-- Footer Widget -->
-            <div class="c-col-6 footer-widget footer_menu">
-
-                <!-- Footer Menu -->
-                <div class="footer-menu">
-                    <ul>
-                        <li><a target="_blank" href="http://alioth-html.pethemes.com/documentation">Documentation</a></li>
-                        <li><a href="mailto:hello@pethemes.com">Support</a></li>
-                        <li><a target="_blank" href="#.">Purchase</a></li>
-                    </ul>
-
-                </div>
-                <!--/ Footer Menu -->
-
-            </div>
-            <!--/ Footer Widget -->
-
-        </div>
-        <!-- Footer Wraper (Bottom) -->
-
     </div>
     <!-- /Site Footer -->
 
